@@ -1,0 +1,23 @@
+{
+  "name": "@kunping/clipboard",
+  "version": "1.0.2",
+  "description": "copy to clipboard",
+  "main": "dist/clipboard.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "clipboard",
+    "copy"
+  ],
+  "author": "kunping",
+  "license": "ISC",
+  "files": [
+    "src",
+    "dist"
+  ],
+  "types": "src/clipboard.ts"
+}
