@@ -1,7 +1,9 @@
+# 介绍
+简单的将数据复制到剪贴板
 # 安装
 
 ``` shell
-npm i @kunping/clipboard
+npm i @kunping/clipboard --save
 ```
 
 # 引入
