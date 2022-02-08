@@ -1,6 +1,6 @@
 {
   "name": "@kunping/clipboard",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "copy to clipboard",
   "main": "dist/clipboard.js",
   "directories": {
