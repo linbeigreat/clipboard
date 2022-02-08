@@ -15,7 +15,11 @@
     "copy"
   ],
   "author": "kunping",
-  "license": "ISC",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linbeigreat/clipboard.git"
+  },
   "files": [
     "src",
     "dist"
