@@ -19,7 +19,9 @@ class Clipboard {
 
     private setAttributes(options: ClipboardOptions) {
         for (const attribute in options) {
-            this[attribute] = options[attribute]
+            if (this.hasOwnProperty(attribute)) {
+                this[attribute] = options[attribute]
+            }
         }
     }
 
