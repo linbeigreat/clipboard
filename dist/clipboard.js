@@ -11,7 +11,9 @@ class Clipboard {
     }
     setAttributes(options) {
         for (const attribute in options) {
-            this[attribute] = options[attribute];
+            if (this.hasOwnProperty(attribute)) {
+                this[attribute] = options[attribute];
+            }
         }
     }
     handleData() {
